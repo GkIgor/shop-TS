@@ -1,0 +1,34 @@
+div h3 {
+  font-size: 15px;
+  margin: 1px;
+}
+
+body {
+  min-width: 194px !important;
+}
+
+img {
+  width: 100% !important;
+  height: 150px !important;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+.card {
+  width: 15rem;
+}
+
+.row > * {
+  margin-top: 0.8em;
+}
+
+#nav-bar {
+  background-color: #e3f2fd;
+}
+
+img {
+  width: 100% !important;
+  height: 150px !important;
+}
