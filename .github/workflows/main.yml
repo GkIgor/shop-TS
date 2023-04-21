@@ -1,0 +1,14 @@
+name: Compilar TypeScript
+on:
+  push:
+    branches:
+      - main
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Compilar TypeScript
+      uses: borales/actions-typescript@v5
+      with:
+        args: --project ./tsconfig.json
