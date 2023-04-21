@@ -42,7 +42,7 @@ window.addEventListener('load', loadPage); //Atribui o src das imagens no carreg
 
 toggle.addEventListener('click', () => {
   try {
-    const fontImg: any = JSON.parse(localStorage.getItem('fontImg') || '{"freepik": false, "unsplash": false}'); //Resgata config de imagens do local storage
+    const fontImg: { freepik: boolean; unsplash: boolean } = JSON.parse(localStorage.getItem('fontImg') || '{"freepik": false, "unsplash": false}'); //Resgata config de imagens do local storage
     fontImg.freepik = !fontImg.freepik;
     fontImg.unsplash = !fontImg.unsplash;
     localStorage.setItem('fontImg', JSON.stringify(fontImg));  //Envia config de imagens para o local storage
