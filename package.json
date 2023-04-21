@@ -8,8 +8,11 @@
     "crypto-js": "^4.1.1",
     "fontawesome": "^5.6.3",
     "html5": "^1.0.5",
+    "javascript": "^1.0.0",
+    "node": "^19.8.1",
     "png": "^3.0.3",
     "svg": "^0.1.0",
+    "tsc": "^2.0.4",
     "typescript": "^5.0.4"
   }
 }
